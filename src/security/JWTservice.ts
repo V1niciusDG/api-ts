@@ -23,7 +23,20 @@ const verify = (token: string) => {
     }
 };
 
+const invalidTokens = new Set();
+
+const addToBlacklist = (token) => {
+    invalidTokens.add(token);
+}
+
+const isTokenBlacklisted = (token) => {
+    return invalidTokens.has(token);
+}
+
+
 export {
     sign,
     verify,
+    addToBlacklist,
+    isTokenBlacklisted,
 };
