@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node_modules -d ./build ./",
-    "start": "ts-node-dev --respawn src/server.ts",
+    "start": "ts-node-dev --respawn --ignore-watch node_modules src/operation/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

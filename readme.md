@@ -72,7 +72,7 @@ Jogamos o token recebido e com uma funcionalidade de autenticação que faz auto
 
 #### Token inválido
 ![geraçãodetoken](img/new4.png)
-Caso colocamos um token que expirou ou então que não foi gerado por nossa regra de negocio, a opreção não permitirá o acesso em nosso JSON.
+Caso colocamos um token que expirou ou então que não foi gerado por nossa regra de negócio, a opreção não permitirá o acesso em nosso JSON.
 
 ## Licença
 
