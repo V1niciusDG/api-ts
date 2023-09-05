@@ -9,6 +9,7 @@ import users from "../users.json";
 const router = Router()
 
 router.post('/generate-token', (req, res) => {
+    
     const { id, name } = req.body;
     console.log(name);
     console.log(id);
