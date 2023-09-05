@@ -16,6 +16,6 @@ export async function auth(req, res, next) {
     } catch (error) {
        console.log(error);
        res.json({ error: "Token não autorizado." }).status(401);
-
+       
     }
  }
