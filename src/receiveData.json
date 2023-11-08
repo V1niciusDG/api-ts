@@ -1,0 +1,56 @@
+{
+    "Codigo HGA": "MBC-07001_S",
+    "Data Hora Amostragem": "02/05/2023 16:36",
+    "ID Amostra": "13410/23A",
+    "Nome Amostra": "MBC-07001_S",
+    "Matriz": "Efluente",
+    "Codigo Qualidade": "O",
+    "Frequencia": "Quinzenal",
+    "Laboratorio": "Campo Analises Ambientais",
+    "ID Laudo": "13410/23A",
+    "Comentario": "Null",
+    "Resp Cadastro": "Campo Analises Ambientais",
+    "Parametros": [
+      {
+        "Parametro Padrao": "Condutividade Eletrica (In Situ)",
+        "Resultado Numerico": "0,452",
+        "Data Hora Analise": "17/05/2023 15:15",
+        "Grupo Padrao": "Dados de Campo",
+        "Resultado Texto": "null",
+        "Unidade Padrao": "mS/cm",
+        "Qualifier": "Null",
+        "Limite Deteccao": "0,005",
+        "Limite Quantificacao": "0,005",
+        "Numero CAS": "Null",
+        "Fator Diluicao": "1",
+        "Parametro Original": "Condutividade Elétrica",
+        "Resultado Original": "0,452",
+        "Unidade Original": "mS/cm",
+        "Metodo Analise": "SMWW 2510 B",
+        "Outlier": "Null",
+        "Comentario": "Null",
+        "Resp Cadastro": "Campo Analises Ambientais"
+      },
+      {
+        "Parametro Padrao": "Turbidez",
+        "Resultado Numerico": "0,09",
+        "Data Hora Analise": "17/05/2023 15:15",
+        "Grupo Padrao": "Dados de Campo",
+        "Resultado Texto": "null",
+        "Unidade Padrao": "NTU",
+        "Qualifier": "Null",
+        "Limite Deteccao": "0,5",
+        "Limite Quantificacao": "0,5",
+        "Numero CAS": "Null",
+        "Fator Diluicao": "1",
+        "Parametro Original": "Turbidez in situ",
+        "Resultado Original": "0,09",
+        "Unidade Original": "NTU",
+        "Metodo Analise": "ABNT NBR 15874/2010",
+        "Outlier": "Null",
+        "Comentario": "Null",
+        "Resp Cadastro": "Campo Analises Ambientais"
+      }
+    ]
+  }
+  

@@ -1,9 +1,8 @@
 import { Router } from "express";
-import receiveData from "../receiveData.json"
+import httpStatus from 'http-status-codes';
+import receiveData from "../receiveData.json";
 import { addToBlacklist, isTokenBlacklisted, sign, verify } from "../security/JWTservice";
 import { auth } from "../security/auth";
-import httpStatus from 'http-status-codes';
-import users from "../users.json";
 
 
 const router = Router()

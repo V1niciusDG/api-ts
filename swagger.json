@@ -1,0 +1,46 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+      "title": "API JWT",
+      "description": "Documentação da API",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/generate-token": {
+        "post": {
+          "summary": "Gere um token JWT",
+          "description": "Gera um token JWT com base nos dados fornecidos.",
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Token JWT gerado com sucesso",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
